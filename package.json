@@ -5,6 +5,7 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "build:functions": "netlify-lambda build functions --config ./webpack.config.netlify.js"
   }
 }
